@@ -1,0 +1,13 @@
+BUILD: Computing Include file dependencies:
+BUILD: Examining f:\copy\sfilter5.13 directory for files to compile.
+Compiling f:\copy\sfilter5.13 directory ********************
+'nmake.exe /c BUILDMSG=Stop. -i NTTEST= UMTEST= NOLINK=1 NOPASS0=1 386=1'
+1>BUILDMSG: Processing f:\copy\sfilter5.13
+1>    rc -l 409 -DSXS_ASSEMBLY_NAME=""""""  -DSXS_ASSEMBLY_VERSION=""""""  -DSXS_ASSEMBLY_LANGUAGE=""""""  -DSXS_PROCESSOR_ARCHITECTURE="""x86"""  -DSXS_TARGET="""sfilter.sys"""   -DSYSTEM_COMPATIBLE_ASSEMBLY_NAME="""Microsoft.Windows.SystemCompatible"""  -DLSYSTEM_COMPATIBLE_ASSEMBLY_NAME=L"""Microsoft.Windows.SystemCompatible"""   -z "MS Sans Serif,Helv/MS Shell Dlg"  -r -fo objchk_wnet_x86\i386\sfilter.res -D_X86_=1 -Di386=1  -DSTD_CALL -DCONDITION_HANDLING=1   -DNT_INST=0 -DWIN32=100 -D_NT1X_=100 -DWINNT=1 -D_WIN32_WINNT=0x0502 /DWINVER=0x0502 -D_WIN32_IE=0x0600    -DWIN32_LEAN_AND_MEAN=1 -DDEVL=1 -DDBG=1 -D__BUILDMACHINE__=WinDDK -DFPO=0  -DNDEBUG -D_DLL=1    -IC:\WINDDK\3790\inc\mfc42 -Iobjchk_wnet_x86\i386 -IC:\WINDDK\3790\inc\wnet -IC:\WINDDK\3790\inc\wnet -IC:\WINDDK\3790\inc\ddk\wnet -IC:\WINDDK\3790\inc\ifs\wnet -IC:\WINDDK\3790\inc\crt .\sfilter.rc
+1>cl -nologo -Ii386\ -I. -IC:\WINDDK\3790\inc\mfc42 -Iobjchk_wnet_x86\i386 -IC:\WINDDK\3790\inc\wnet -IC:\WINDDK\3790\inc\wnet -IC:\WINDDK\3790\inc\ddk\wnet -IC:\WINDDK\3790\inc\ifs\wnet -IC:\WINDDK\3790\inc\crt -D_X86_=1 -Di386=1  -DSTD_CALL -DCONDITION_HANDLING=1   -DNT_INST=0 -DWIN32=100 -D_NT1X_=100 -DWINNT=1 -D_WIN32_WINNT=0x0502 /DWINVER=0x0502 -D_WIN32_IE=0x0600    -DWIN32_LEAN_AND_MEAN=1 -DDEVL=1 -DDBG=1 -D__BUILDMACHINE__=WinDDK -DFPO=0  -DNDEBUG -D_DLL=1      /c /Zel /Zp8 /Gy /Gi- /Gm- -cbstring /W3 /WX /Gz  /QIfdiv- /G6 /GX-  /GR- /GF /GS -Z7 /Od /Oi  /Oy-   -FIC:\WINDDK\3790\inc\wnet\warning.h   .\sfilter.c 
+1>sfilter.c
+1>f:\copy\sfilter5.13\sfilter.c(3847) : error C2220: warning treated as error - no 'object' file generated
+1>f:\copy\sfilter5.13\sfilter.c(3847) : warning C4716: 'SfDeviceControl' : must return a value
+1>
+1>Stop.
+Compile errors: not linking f:\copy\sfilter5.13 directory ********************

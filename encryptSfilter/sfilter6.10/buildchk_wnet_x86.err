@@ -1,0 +1,2 @@
+1>sfilter.c(3847) : error C2220: warning treated as error - no 'object' file generated
+1>sfilter.c(3847) : error C4716: 'SfDeviceControl' : must return a value
